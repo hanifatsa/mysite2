@@ -13,8 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//127.0.0.1:8000/hani ==> <h1>HALO SAYA HANI</h1>
-Route::get('/hani', function () {
-    return "<h1>HALO SAYA HANI</h1>";
+Route::get('/', function () {
+    return 'home';
 });
+
+// Route::get('/', function () {
+//     return view('home'); // Diperbarui
+// });
   
